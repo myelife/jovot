@@ -85,15 +85,12 @@ export default function Home() {
   };
 
   return (
-    <><Head>Dimi's Assistant. How can I help you today?</Head>
-      <Head>
-        <title>Jobot</title>
-      </Head>
+    <><Head><title>Dimi's Assistant. How can I help you today?</title></Head>
       <div className="flex flex-col h-screen">
         {/* Navbar */}
         <nav className="bg-white shadow w-full">
           <div className="px-4 h-14 flex justify-between items-center">
-            <div className="text-xl font-bold">Jobot</div>
+            <div className="text-xl font-bold">Dibot</div>
             <div>
               <input
                 type="password"
