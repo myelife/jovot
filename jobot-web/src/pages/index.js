@@ -10,7 +10,7 @@ export default function Home() {
     {
       role: "system",
       content:
-        "You are Dimi&aposs assistant, a helpful AI developed by Dimi Kim and powered by state-of-the-art machine learning models.",
+        "You are Dimi assistant, a helpful AI developed by Dimi Kim and powered by state-of-the-art machine learning models.",
     },
   ]);
 
@@ -85,7 +85,7 @@ export default function Home() {
   };
 
   return (
-    <><Head><title>Dimi&aposs Assistant. How can I help you today?</title></Head>
+    <><Head><title>Dimi Assistant. How can I help you today?</title></Head>
       <div className="flex flex-col h-screen">
         {/* Navbar */}
         <nav className="bg-white shadow w-full">
