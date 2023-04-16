@@ -10,7 +10,7 @@ export default function Home() {
     {
       role: "system",
       content:
-        "You are Dimi's assistant, a helpful AI developed by Dimi Kim and powered by state-of-the-art machine learning models.",
+        "You are Dimi&aposs assistant, a helpful AI developed by Dimi Kim and powered by state-of-the-art machine learning models.",
     },
   ]);
 
@@ -85,7 +85,7 @@ export default function Home() {
   };
 
   return (
-    <><Head><title>Dimi's Assistant. How can I help you today?</title></Head>
+    <><Head><title>Dimi&aposs Assistant. How can I help you today?</title></Head>
       <div className="flex flex-col h-screen">
         {/* Navbar */}
         <nav className="bg-white shadow w-full">
@@ -111,7 +111,7 @@ export default function Home() {
               .map((msg, idx) => (
                 <div key={idx} className="mt-3">
                   <div className="font-bold">
-                    {msg.role === "user" ? "You" : "Jobot"}
+                    {msg.role === "user" ? "You" : "dibot"}
                   </div>
                   <div className="text-lg prose">
                       <ReactMarkdown>{msg.content}</ReactMarkdown>
